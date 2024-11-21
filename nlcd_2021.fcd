@@ -1,0 +1,21 @@
+ID, Name, Enabled, IsBackground
+11, Open Water, true, false
+12, Perennial Ice/Snow, true, false
+21, Developed Open Space, true, false
+22, Developed Low Intensity, true, false
+23, Developed Medium Intensity, true, false
+24, Developed High Intensity, true, false
+31, Barren Land (Rock/Sand/Clay), true, false
+41, Deciduous Forest, true, false
+42, Evergreen Forest, true, false
+43, Mixed Forest, true, false
+51, Dwarf Scrub, true, false
+52, Shrub/Scrub, true, false
+71, Grassland/Herbaceous, true, false
+72, Sedge/Herbaceous, true, false
+73, Lichens, true, false
+74, Moss, true, false
+81, Pasture/Hay, true, false
+82, Cultivated Crops, true, false
+90, Woody Wetlands, true, false
+95, Emergent Herbaceous Wetlands, true, false
