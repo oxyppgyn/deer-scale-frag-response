@@ -1,0 +1,21 @@
+Procedure for Doing Fragstats Analyses for "Scale-dependent Responses to Habitat Configuration and Fragmentation in White-tailed Deer":
+
+1. Open a new file.
+2. Add the clipped raster file with the "add layer..." button under Input layers -> Batch management.
+3. Add class descriptors with the "browse" button under Input layers -> Common tables -> Class Descriptors.
+	a. Choose the "nlcd_2021_reclass.fcd" file. The other fcd will be used later.
+4. Choose "Use 4 cell neighborhood rule" under Analysis parameters -> General options.
+5. Choose "Total Edge (TE)" under Class metrics -> Area - Edge.
+6. Choose "User provided points" under Analysis parameters -> Sampling strategy -> Partial sampling.
+	a. Check "Class metrics" in this area.
+	b. Check "Points table" in this area if not already checked.
+	c. Click "..." next to Points table and choose your fpt file.
+7. Check "Square with a side length of XXX.XX meters" under Analysis parameters -> Sampling strategy -> Partial sampling -> User Provided points.
+	a. Click "..." next to "Square with a side length of XXX.XX meters" and set the side length to the first extent you chose.
+	b. Run the model with the "Run" button.
+	c. Click results then "Save run as..."
+	c. Save run with a unique file name ending in number the edge length of your scale. Ex: FragFile_630 for an extent of 630 meters.
+	d. Repeat step 7 with all extents.
+
+DONE: You will now have a set of files for each metric measured at different extents. Files will all have the .class file extension.
+
